@@ -1,0 +1,39 @@
+#listofbuttons{
+  /* width: 97%; */
+  padding-top: 20px ;
+  padding-bottom: 20px ;
+  border-radius: 5px;
+  margin: 0px auto;
+  background-color: #f9fbfd;
+  height: 70px;
+}
+#listofbuttons>*{
+  height: 100%;
+}
+#listofbuttons>section>span{
+border-radius: 5px;
+cursor: pointer;
+background-color: rgba(191, 188, 188, 0.202);
+}
+.part{
+  border-right: 1px solid #80808046;
+}
+
+#Menus>ul>li>a{
+  color: black;
+}
+#Menus>ul>li:nth-of-type(1){
+background-color:rgba(148, 161, 161, 0.454);
+border-radius: 5px;
+padding: 2px;
+}
+#Menus>ul>li:nth-of-type(1)>a{
+  color: blue;
+}
+.selection{
+  border-radius: 5px;
+  padding:2px 5px;
+  height: fit-content;
+  background-color:rgba(148, 161, 161, 0.454);
+cursor: pointer;
+}

@@ -1,0 +1,36 @@
+
+
+@media screen and (max-width: 576px) {
+ .slides{
+  width: 95%;
+  /* border: 2px solid yellow; */
+ }
+ #slide_wrap{
+  align-content: center;
+ }
+}
+@media screen and (min-width: 576px) {
+  #slide_wrap{
+    align-content: center;
+   }
+  .slides{
+    width:95%;
+    /* border: 2px solid yellow; */
+   }
+}
+@media screen and (min-width: 992px) {
+ .slides{
+  width: 450px;
+  /* border: 2px solid blue; */
+}
+
+}
+@media screen and (min-width: 1200px) {
+
+}
+@media screen and (min-width: 1400px) {
+  
+}
+
+
+/*# sourceMappingURL=local.css.map */

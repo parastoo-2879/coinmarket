@@ -1,0 +1,238 @@
+#Bottomheader{
+  height: 80px;
+}
+#search-sec input{
+border-radius: 10px;
+background-color: #80808071;
+border: none;
+padding: 10px;
+}
+#search-sec span{
+  cursor: pointer;
+}
+.submenu{
+  display: none;
+  position: absolute;
+  top:90%;
+  left: -35%;
+  background-color: white;
+  box-shadow: 0 0 10px rgb(220, 229, 229); 
+border-radius: 15px;
+z-index: 20;
+}
+
+#submenu11 ,#submenu44,#submenu55{
+  display: none;
+  z-index: 20;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 0 10px rgb(220, 229, 229); 
+border-radius: 15px;
+}
+#submenu11{
+  z-index: 20;
+  top:90%;
+  left: -90%;
+  width: 450px;
+}
+#submenu11>li::before,#submenu22::before,#submenu33::before , #submenu44::before,#submenu55::before{
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid rgb(255, 255, 255);
+  position: absolute;
+  top: -10px;
+  right: 200px;
+}
+#main-menu li{
+  position: relative;
+  justify-content: space-between;
+}
+#Cryptocurrencies:hover>ul{
+  display: block;
+}
+#submenu11 li ,#submenu44 li {
+  width: 100%;
+  padding: 10px 0;
+}
+#submenu11 >li>div ul ,#submenu44>li>div ul{
+  width: 100%;
+  margin: 0;padding:0;
+}
+#submenu11 >li>div li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 8px;
+}
+#submenu11 >li>div header,#Products>ul>li>div header{
+  color: rgba(128, 128, 128, 0.571);
+  display: flex;
+  justify-content: center;
+}
+#submenu11 >li>div header h5{
+  font-size: 18px;
+
+}
+#submenu11 >li>div li:hover,.submenu>li:hover,#submenu44 >li>div li:hover,#submenu55 >li>div>ul>li:hover{
+  background-color: rgba(128, 128, 128, 0.466);
+}
+#submenu11 >li>div li img,.submenu img,#Products>ul>li>div>ul>li>img,#submenu55 >li>div>ul>li>img{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+#submenu11 >li>div li a{
+  display: flex;width: 75%;
+  color: black;
+  font-weight: bold;
+}
+#exchange:hover ul{
+  display: block;
+}
+#submenu22 li , #submenu33 li{
+justify-content: space-around;
+padding: 10px 5px;
+margin: 5px 10px;
+width: 150px;
+border-radius: 15px;
+display: flex;
+}
+#submenu22 li a , #submenu33 li a,#Products>ul>li>div>ul>li>a,#submenu55 >li>div>ul>li>a{
+  display: flex;
+  width: 70%;
+  color: black;
+  font-weight: bold;
+}
+#submenu22::before,#submenu33::before,#submenu44::before,#submenu55::before{
+  left: 45%;
+}
+#Community:hover>ul{
+  display: block;
+}
+#submenu33{
+  padding: 0;
+}
+#submenu44{
+  top: 90%;
+  left: -230%;
+  width: 700px;
+  height: 400px;
+  align-items: center;
+}
+#Products{
+  position: relative;
+}
+#Products>ul>li>div{
+  padding: 0;margin: 0;
+}
+#Products>ul>li>div>ul{
+  width: 100%;
+}
+#Products>ul>li>div>ul>li{
+  width: 100%;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+#Products:hover >ul{
+display: flex;
+}
+#Products>ul>li>div header{
+  justify-content: start;
+}
+#submenu55{
+  position: absolute;
+  top: 90%;
+  left: -50%;
+  padding: 0;
+  width: 200px;
+}
+#submenu55 >li{
+padding: 10px; 
+}#submenu55 >li>div,#submenu55 >li>div>ul{
+  width: 100%;
+  padding: 0;
+}
+#submenu55 >li>div>ul>li{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+#learn:hover>ul{
+  display: flex;
+}
+#Mobile>img{
+width: 30px;
+height: 30px;
+}
+#Mobile>*{
+  padding: 0 5px;
+  cursor: pointer;
+}
+#Mobile>i:nth-of-type(1){
+  font-size: 20px;
+}
+#Mobile>i:nth-of-type(2){
+  font-size: 30px;
+}
+#hamMenu{
+  position: fixed;
+  top: 0;left: 0;
+  /* border: 2px solid red; */
+  background-color: #fff;
+  min-height: 100vh;
+  z-index: 100;
+  overflow-x: hidden;
+  transition: 1s;
+  /* display: none */
+}
+#hamMenu>header{
+  min-height: 80px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: -10px 0 10px #80808080;
+;
+}
+#hamMenu>header>i{
+  cursor: pointer;
+  font-size: 18px;
+}
+#hamMenu>section{
+  margin-top: 80px;
+  height: 515px;
+  overflow-y: scroll;
+  width: 120%;
+  overflow-x: hidden;
+}
+#hamMenu>section figure{
+  height: 100%;
+}
+#hamMenu>section img{
+  width: 30px;
+  height: 30px;
+}
+#hamMenu section>ul>li>h5{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid #808080a4;
+}
+#hamMenu section>ul>li>div{
+  display: none
+}
+.itemtoggle{
+  display: flex;
+}

@@ -1,0 +1,10 @@
+#items{
+  position: sticky;
+  justify-content: space-evenly;
+  padding: 15px;
+  border-top: 1px solid rgba(128, 128, 128, 0.547);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.547);
+  width: 95%;
+  margin: 0 auto;
+  
+}

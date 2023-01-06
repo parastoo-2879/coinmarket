@@ -1,0 +1,32 @@
+.tableRows{
+width: 100%;
+padding: 15px;
+/* display: flex; */
+height: 60px;
+justify-content: space-evenly;
+align-items: center;
+border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+}
+.tableRows:hover{
+  background-color: rgba(182, 176, 176, 0.461);
+}
+em{
+  font-size: 14px;
+  color: gray;
+}
+#table{
+  width: 95%;
+  margin: auto;
+}
+#table span{
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#table>div>span>span{
+  width: 90%;
+}
